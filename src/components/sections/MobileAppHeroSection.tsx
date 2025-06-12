@@ -401,7 +401,7 @@ export default function MobileAppHeroSection() {
           aria-label="Background video showcasing a mobile app demo"
         >
           <source src="/videos/mobile-app-demo.mp4" type="video/mp4" />
-          <div className="bg-gradient-to-b from-dark-950 to-dark-800 w-full h-full"></div>
+          <div className="bg-linear-to-b from-dark-950 to-dark-800 w-full h-full"></div>
         </video>
       </div>
       <div className="absolute inset-0 opacity-10 pointer-events-none grain-texture">

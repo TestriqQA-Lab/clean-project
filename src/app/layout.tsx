@@ -1,5 +1,4 @@
 import './globals.css';
-import '../styles/prose.css';
 import { ReactNode } from 'react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
@@ -52,7 +51,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <ClientLayout>
           <Header />
           <ClientLayoutWrapper>
-            <main className="flex-grow">{children}</main>
+            <main className="grow">{children}</main>
           </ClientLayoutWrapper>
           <Footer />
         </ClientLayout>

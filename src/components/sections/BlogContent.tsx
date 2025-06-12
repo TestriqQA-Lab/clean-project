@@ -79,15 +79,15 @@ export default function BlogContent() {
             >
               <Card variant="elevated" padding="lg" hoverEffect className="h-full">
                 <div className="flex flex-col h-full">
-                  <div className="mb-4 aspect-[4/3] bg-gray-100 rounded overflow-hidden">
+                  <div className="mb-4 aspect-4/3 bg-gray-100 rounded overflow-hidden">
                     {/* Replace with actual image when available */}
-                    <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-400">
+                    <div className="w-full h-full bg-linear-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-400">
                       <span className="text-sm">Blog Image</span>
                     </div>
                   </div>
                   <p className="text-sm text-gray-500 mb-2">{post.date}</p>
                   <h3 className="text-xl font-bold mb-2">{post.title}</h3>
-                  <p className="text-gray-600 mb-6 flex-grow">{post.excerpt}</p>
+                  <p className="text-gray-600 mb-6 grow">{post.excerpt}</p>
                   <Button
                     className="mt-auto self-start"
                     icon={<FaArrowRight />}

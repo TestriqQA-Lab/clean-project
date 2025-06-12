@@ -244,7 +244,7 @@ export default function DigitalMarketingWhyChooseUsSection() {
               {reasons.map((reason, index) => (
                 <motion.div
                   key={index}
-                  className="relative backdrop-blur-sm bg-white/10 bg-gradient-to-b from-white/20 to-transparent rounded-full p-8 border border-[rgba(0,160,227,0.3)] shadow-inner hover:border-brand-blue hover:shadow-[0_0_20px_rgba(0,160,227,0.7)] hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center w-72 h-72 text-center mx-auto"
+                  className="relative backdrop-blur-sm bg-white/10 bg-linear-to-b from-white/20 to-transparent rounded-full p-8 border border-[rgba(0,160,227,0.3)] shadow-inner hover:border-brand-blue hover:shadow-[0_0_20px_rgba(0,160,227,0.7)] hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center w-72 h-72 text-center mx-auto"
                   initial={{ opacity: 0, scale: 0.8 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}

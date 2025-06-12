@@ -143,7 +143,7 @@ export default function TechnologiesWeUseSection() {
   };
 
   return (
-    <section id="technologies-we-use" className="bg-gradient-to-b from-dark-900 to-dark-950 py-16 md:py-24 relative overflow-hidden">
+    <section id="technologies-we-use" className="bg-linear-to-b from-dark-900 to-dark-950 py-16 md:py-24 relative overflow-hidden">
       {/* Subtle Grain Texture with Animation */}
       <div
         className="absolute inset-0 opacity-10 pointer-events-none"

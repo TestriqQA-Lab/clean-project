@@ -35,7 +35,7 @@ export default function DigitalMarketingCTASection() {
         style={{ opacity: gradientOpacity }}
       >
         <div
-          className="absolute inset-0 bg-gradient-to-br from-[rgba(0,160,227,0.3)] to-[rgba(57,49,133,0.3)]"
+          className="absolute inset-0 bg-linear-to-br from-[rgba(0,160,227,0.3)] to-[rgba(57,49,133,0.3)]"
         />
         <div
           className="absolute inset-0 opacity-10"

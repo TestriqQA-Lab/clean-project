@@ -147,7 +147,7 @@ export default function CategoryPostsList({ initialPosts, allPosts, hasNextPage:
             <div className="text-gray-400 text-center mb-4" dangerouslySetInnerHTML={{ __html: post.sanitizedExcerpt }} />
             <Link
               href={`/blog/${post.slug}`}
-              className="bg-gradient-to-r from-brand-blue to-blue-700 hover:bg-brand-blue/80 text-white font-semibold py-2 px-4 rounded transition-all duration-300"
+              className="bg-linear-to-r from-brand-blue to-blue-700 hover:bg-brand-blue/80 text-white font-semibold py-2 px-4 rounded transition-all duration-300"
             >
               Read More
             </Link>

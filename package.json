@@ -41,7 +41,7 @@
     "@types/react-google-recaptcha": "^2.1.9",
     "eslint": "^8",
     "eslint-config-next": "14.0.0",
-    "tailwindcss": "^4.1.9",
+    "tailwindcss": "^4.1.10",
     "typescript": "^5"
   }
 }

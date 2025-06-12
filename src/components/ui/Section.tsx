@@ -24,7 +24,7 @@ export default function Section({
     light: 'bg-gray-50',
     dark: 'bg-dark text-white',
     primary: 'bg-primary-50',
-    gradient: 'bg-gradient-to-r from-primary-600 to-secondary-600 text-white',
+    gradient: 'bg-linear-to-r from-primary-600 to-secondary-600 text-white',
   };
   
   const paddingStyles = {

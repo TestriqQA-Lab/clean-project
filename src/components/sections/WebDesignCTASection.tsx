@@ -27,7 +27,7 @@ export default function WebDesignCTASection() {
         className="absolute inset-0 z-0"
         style={{ opacity: gradientOpacity }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-[rgba(0,160,227,0.3)] to-[rgba(57,49,133,0.3)]" />
+        <div className="absolute inset-0 bg-linear-to-br from-[rgba(0,160,227,0.3)] to-[rgba(57,49,133,0.3)]" />
       </motion.div>
       <div className="w-full px-2 sm:px-[10%] relative z-10">
         <script

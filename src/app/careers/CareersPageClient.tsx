@@ -290,7 +290,7 @@ export default function CareersPageClient() {
       <AnimatePresence>
         {isModalOpen && (
           <motion.div
-            className="fixed inset-0 flex items-center justify-center z-[1000] overflow-auto bg-black bg-opacity-50"
+            className="fixed inset-0 flex items-center justify-center z-1000 overflow-auto bg-black bg-opacity-50"
             initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -423,7 +423,7 @@ export default function CareersPageClient() {
                       </button>
                       <button
                         type="submit"
-                        className="px-6 py-3 rounded-lg bg-gradient-to-r from-brand-blue to-blue-700 text-white hover:shadow-[0_0_15px_rgba(0,160,227,0.5)] transition-all duration-300"
+                        className="px-6 py-3 rounded-lg bg-linear-to-r from-brand-blue to-blue-700 text-white hover:shadow-[0_0_15px_rgba(0,160,227,0.5)] transition-all duration-300"
                         disabled={isSubmitting || !!resumeError || !captchaValue}
                       >
                         {isSubmitting ? 'Submitting...' : 'Submit Application'}

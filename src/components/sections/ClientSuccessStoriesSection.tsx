@@ -89,7 +89,7 @@ export default function ClientSuccessStoriesSection() {
   };
 
   return (
-    <section id="client-success-stories" className="bg-gradient-to-b from-dark-900 to-dark-950 py-16 md:py-24 relative overflow-hidden">
+    <section id="client-success-stories" className="bg-linear-to-b from-dark-900 to-dark-950 py-16 md:py-24 relative overflow-hidden">
       {/* Structured Data */}
       <script
         type="application/ld+json"

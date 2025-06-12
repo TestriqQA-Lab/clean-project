@@ -7,7 +7,7 @@ interface MainLayoutProps {
 export default function MainLayout({ children }: MainLayoutProps) {
   return (
     <div className="flex min-h-screen flex-col">
-      <main className="flex-grow">{children}</main>
+      <main className="grow">{children}</main>
     </div>
   );
 }

@@ -74,7 +74,7 @@ export default function TestimonialsSection() {
   };
 
   return (
-    <section id="testimonials" className="bg-gradient-to-b from-dark-900 to-dark-950 py-16 md:py-24 relative overflow-hidden">
+    <section id="testimonials" className="bg-linear-to-b from-dark-900 to-dark-950 py-16 md:py-24 relative overflow-hidden">
       {/* Structured Data */}
       <script
         type="application/ld+json"

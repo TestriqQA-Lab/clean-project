@@ -72,7 +72,7 @@ export default function CustomBusinessSolutionsCTASection() {
   };
 
   return (
-    <section className="relative bg-gradient-to-r from-brand-indigo to-brand-blue py-16 md:py-24 overflow-hidden">
+    <section className="relative bg-linear-to-r from-brand-indigo to-brand-blue py-16 md:py-24 overflow-hidden">
       {/* Structured Data */}
       <script
         type="application/ld+json"

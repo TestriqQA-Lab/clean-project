@@ -83,14 +83,14 @@ export default function PortfolioContent() {
             >
               <Card variant="elevated" padding="lg" hoverEffect className="h-full">
                 <div className="flex flex-col h-full">
-                  <div className="mb-4 aspect-[4/3] bg-gray-100 rounded overflow-hidden">
+                  <div className="mb-4 aspect-4/3 bg-gray-100 rounded overflow-hidden">
                     {/* Replace with actual image when available */}
-                    <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-400">
+                    <div className="w-full h-full bg-linear-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-400">
                       <span className="text-sm">Project Image</span>
                     </div>
                   </div>
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                  <p className="text-gray-600 mb-6 flex-grow">{project.description}</p>
+                  <p className="text-gray-600 mb-6 grow">{project.description}</p>
                   <Button
                     className="btn btn-text mt-auto self-start"
                     icon={<FaArrowRight />}

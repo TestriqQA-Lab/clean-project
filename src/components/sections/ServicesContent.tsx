@@ -103,7 +103,7 @@ export default function ServicesContent() {
                     {service.icon}
                   </div>
                   <h3 className="text-xl font-bold mb-2">{service.title}</h3>
-                  <p className="text-gray-600 mb-6 flex-grow">{service.description}</p>
+                  <p className="text-gray-600 mb-6 grow">{service.description}</p>
                   <Button
                     className="btn btn-text mt-auto self-start"
                     icon={<span className="ml-1">→</span>}

@@ -160,7 +160,7 @@ export default function DigitalMarketingHeroSection() {
   };
 
   return (
-    <section className="relative bg-gradient-to-b from-dark-950 to-dark-800 pt-8 md:py-24 overflow-hidden">
+    <section className="relative bg-linear-to-b from-dark-950 to-dark-800 pt-8 md:py-24 overflow-hidden">
       {/* Structured Data */}
       <script
         type="application/ld+json"

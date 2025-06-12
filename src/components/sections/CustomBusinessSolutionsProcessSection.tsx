@@ -278,7 +278,7 @@ export default function CustomBusinessSolutionsProcessSection() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       {/* Subtle Background Gradient */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,160,227,0.05)_0%,_rgba(0,0,0,0)_70%)] opacity-30 pointer-events-none" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,160,227,0.05)_0%,rgba(0,0,0,0)_70%)] opacity-30 pointer-events-none" />
       <div className="w-full px-[10%] relative z-10">
         <div className="text-center mb-12">
           <motion.h2

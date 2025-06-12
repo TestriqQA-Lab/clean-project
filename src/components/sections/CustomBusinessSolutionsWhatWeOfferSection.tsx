@@ -245,7 +245,7 @@ export default function CustomBusinessSolutionsWhatWeOfferSection() {
         />
       </div>
       {/* Radial Gradient Background */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,160,227,0.05)_0%,_rgba(0,0,0,0)_70%)] opacity-30 pointer-events-none" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,160,227,0.05)_0%,rgba(0,0,0,0)_70%)] opacity-30 pointer-events-none" />
       {/* Background Particles */}
       <svg className="absolute inset-0 pointer-events-none" width="100%" height="100%">
         <circle cx="5%" cy="10%" r="3" fill="#00a0e3" opacity="0.3" className="background-particle" />

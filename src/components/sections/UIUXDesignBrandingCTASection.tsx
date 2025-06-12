@@ -7,7 +7,7 @@ export default function UIUXDesignBrandingCTASection() {
   return (
     <section className="bg-dark-900 py-10 md:py-14 relative overflow-hidden">
       {/* Background Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#00a0e3]/10 to-[#393185]/10 pointer-events-none" />
+      <div className="absolute inset-0 bg-linear-to-b from-[#00a0e3]/10 to-[#393185]/10 pointer-events-none" />
 
       {/* Structured Data for CTA */}
       <script type="application/ld+json">

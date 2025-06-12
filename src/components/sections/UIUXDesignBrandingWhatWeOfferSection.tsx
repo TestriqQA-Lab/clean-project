@@ -307,7 +307,7 @@ export default function UIUXDesignBrandingWhatWeOfferSection() {
               {/* Card Header */}
               <div className="flex flex-col items-center mb-4">
                 <div
-                  className={`service-icon ${service.className} mb-3 p-2 rounded-full transition-all duration-500 group-hover:-translate-y-1 group-hover:shadow-xl group-hover:bg-gradient-to-r ${
+                  className={`service-icon ${service.className} mb-3 p-2 rounded-full transition-all duration-500 group-hover:-translate-y-1 group-hover:shadow-xl group-hover:bg-linear-to-r ${
                     index % 2 === 0 ? 'group-hover:from-[#00a0e3] group-hover:to-[#393185]' : 'group-hover:from-[#393185] group-hover:to-[#00a0e3]'
                   }`}
                 >

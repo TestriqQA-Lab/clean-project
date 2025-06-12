@@ -175,7 +175,7 @@ export default function MobileAppWhyChooseUsSection() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <div className="absolute inset-0 opacity-10 pointer-events-none">
-        <div className="bg-gradient-to-b from-dark-950 to-dark-800 w-full h-full"></div>
+        <div className="bg-linear-to-b from-dark-950 to-dark-800 w-full h-full"></div>
       </div>
       <div className="w-full px-[10%] relative z-10">
         <div className="text-center mb-12">

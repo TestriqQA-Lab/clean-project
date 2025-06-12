@@ -212,7 +212,7 @@ export default function CustomBusinessSolutionsWhyChooseUsSection() {
           {reasons.map((reason, index) => (
             <motion.div
               key={index}
-              className="card backdrop-blur-sm bg-white/10 bg-gradient-to-br from-dark-900 to-dark-800 rounded-lg shadow-lg border border-[rgba(0,160,227,0.3)] hover:border-brand-blue hover:shadow-[0_0_15px_rgba(0,160,227,0.5)] focus:ring-2 focus:ring-brand-blue transition-all duration-300 perspective-1000"
+              className="card backdrop-blur-sm bg-white/10 bg-linear-to-br from-dark-900 to-dark-800 rounded-lg shadow-lg border border-[rgba(0,160,227,0.3)] hover:border-brand-blue hover:shadow-[0_0_15px_rgba(0,160,227,0.5)] focus:ring-2 focus:ring-brand-blue transition-all duration-300 perspective-1000"
               role="button"
               tabIndex={0}
               aria-label={`Learn more about ${reason.title}`}

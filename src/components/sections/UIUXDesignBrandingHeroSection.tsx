@@ -155,7 +155,7 @@ export default function UIUXDesignBrandingHeroSection() {
   }, []);
 
   return (
-    <section className="relative bg-gradient-to-r from-dark-950 to-dark-800 py-12 md:py-20 overflow-hidden">
+    <section className="relative bg-linear-to-r from-dark-950 to-dark-800 py-12 md:py-20 overflow-hidden">
       {/* Structured Data for the Hero Section */}
       <script type="application/ld+json">
         {`
@@ -210,7 +210,7 @@ export default function UIUXDesignBrandingHeroSection() {
       `}</style>
 
       {/* Subtle Background Overlay */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(255,255,255,0.05)_0%,_rgba(255,255,255,0)_70%)] opacity-30 pointer-events-none" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.05)_0%,rgba(255,255,255,0)_70%)] opacity-30 pointer-events-none" />
 
       <div className="w-full px-[10%] relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">

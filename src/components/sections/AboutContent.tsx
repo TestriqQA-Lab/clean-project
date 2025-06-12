@@ -125,9 +125,9 @@ export default function AboutContent() {
             <div className="relative">
               <div className="absolute inset-0 bg-brand-blue rounded-lg opacity-20 blur-lg transform translate-x-4 translate-y-4"></div>
               <div className="relative bg-white p-2 rounded-lg shadow-xl">
-                <div className="aspect-[4/3] bg-gray-100 rounded overflow-hidden">
+                <div className="aspect-4/3 bg-gray-100 rounded overflow-hidden">
                   {/* Replace with actual image when available */}
-                  <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-400">
+                  <div className="w-full h-full bg-linear-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-400">
                     <span className="text-sm">Company Image</span>
                   </div>
                 </div>
@@ -216,7 +216,7 @@ export default function AboutContent() {
                   <div className="md:w-1/3">
                     <div className="aspect-square bg-gray-100 rounded-full overflow-hidden">
                       {/* Replace with actual team member images when available */}
-                      <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-400">
+                      <div className="w-full h-full bg-linear-to-br from-gray-100 to-gray-200 flex items-center justify-center text-gray-400">
                         <span className="text-sm">Photo</span>
                       </div>
                     </div>

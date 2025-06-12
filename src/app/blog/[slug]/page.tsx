@@ -382,7 +382,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               priority
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-dark-900/90 to-transparent flex items-end p-6">
+            <div className="absolute inset-0 bg-linear-to-t from-dark-900/90 to-transparent flex items-end p-6">
               <div>
                 <span className="inline-block bg-brand-blue text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">
                   {post.category}

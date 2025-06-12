@@ -1,6 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-dark-900: oklch(25.1% 0.05 255.5);
+  --color-dark-950: oklch(17.5% 0.03 255.5);
+  --color-primary-500: oklch(65.5% 0.15 185.5);
+  --color-primary-600: oklch(60.5% 0.14 185.5);
+  --color-brand-blue: oklch(75.5% 0.25 245.5);
+  --color-brand-indigo: oklch(45.5% 0.20 275.5);
+  --color-gray-800: oklch(35.5% 0.05 255.5);
+  --color-prose-heading: oklch(50.5% 0.15 210); /* #1a5f7a */
+  --color-prose-link: oklch(75.5% 0.15 180); /* #14b8a6 */
+}
 
 :root {
   --background: #ffffff;
@@ -14,10 +25,41 @@
   }
 }
 
-
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'Manrope', sans-serif;
+}
+
+.prose {
+  font-family: 'Inter', sans-serif;
+  @apply text-gray-800;
+}
+
+.prose h1 {
+  @apply text-4xl text-prose-heading font-bold mb-6;
+}
+
+.prose h2 {
+  @apply text-2xl text-prose-heading font-semibold mt-8 mb-4;
+}
+
+.prose p {
+  @apply text-lg leading-7 mb-5;
+}
+
+.prose ul {
+  @apply list-disc mb-5 pl-6;
+}
+
+.prose li {
+  @apply text-lg leading-7 mb-2;
+}
+
+.prose a {
+  @apply text-prose-link underline transition-colors duration-200;
+}
+
+.prose a:hover {
+  @apply text-primary-500; /* Matches #0d9488 */
 }

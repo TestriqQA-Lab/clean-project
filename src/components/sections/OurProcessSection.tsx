@@ -171,7 +171,7 @@ export default function OurProcessSection() {
   };
 
   return (
-    <section id="our-process" className="bg-gradient-to-b from-dark-900 to-dark-950 py-16 md:py-24 relative overflow-hidden">
+    <section id="our-process" className="bg-linear-to-b from-dark-900 to-dark-950 py-16 md:py-24 relative overflow-hidden">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

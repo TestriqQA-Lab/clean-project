@@ -78,7 +78,7 @@ export default function ServicesPage() {
   return (
     <div className="bg-dark-950 text-white">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-brand-blue to-brand-indigo !bg-gradient-to-r py-16 md:py-24">
+      <section className="relative bg-linear-to-r from-brand-blue to-brand-indigo bg-linear-to-r! py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-[10%] text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">
             Our Services

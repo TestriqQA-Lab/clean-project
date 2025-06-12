@@ -24,7 +24,7 @@ export default function MobileAppCTABannerSection() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <div className="absolute inset-0 opacity-20 pointer-events-none">
-        <div className="bg-gradient-to-r from-brand-blue to-brand-indigo w-full h-full"></div>
+        <div className="bg-linear-to-r from-brand-blue to-brand-indigo w-full h-full"></div>
       </div>
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <svg className="w-full h-full" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
